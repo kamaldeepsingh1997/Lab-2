@@ -1,0 +1,19 @@
+//https://www.codewars.com/kata/54147087d5c2ebe4f1000805
+
+function _if(bool, func1, func2) {
+  
+  if (bool == !true  bool == null  bool == undefined  bool == 0  bool ==   bool == NaN){ 
+  console.log(false);
+   func2();
+  }
+
+  else if (bool == true  bool == false){  
+   console.log(true)   
+   func1();
+  }
+  
+  else {
+  console.log(false) 
+  func2();
+  }
+}
